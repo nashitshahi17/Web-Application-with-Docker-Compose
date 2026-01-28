@@ -36,22 +36,22 @@ The main goal of this repository is to:
 ## 📁 Project Structure
 Web-Application-with-Docker-Compose/
 │
-├── backend/ # Django backend
-│ ├── api/
-│ │ ├── models.py # Note model
-│ │ ├── views.py
-│ │ ├── urls.py
-│ │ └── ...
-│ ├── manage.py
-│ └── ...
+├── backend/                     # Django backend
+│   ├── api/
+│   │   ├── models.py            # Note model
+│   │   ├── views.py
+│   │   ├── urls.py
+│   │   └── ...
+│   ├── manage.py
+│   └── ...
 │
-├── frontend/ # React frontend
-│ ├── build/
-│ │ ├── index.html # React production build
-│ │ └── static/
-│ └── ...
+├── frontend/                    # React frontend
+│   ├── build/
+│   │   ├── index.html           # React production build
+│   │   └── static/
+│   └── ...
 │
-├── Dockerfile # Docker image configuration
-├── docker-compose.yml # Multi-container setup
-├── requirements.txt # Python dependencies
-├── README.md # Project documentation
+├── Dockerfile                   # Docker image configuration
+├── docker-compose.yml           # Multi-container setup
+├── requirements.txt             # Python dependencies
+├── README.md                    # Project documentation
